@@ -1,0 +1,159 @@
+html, body {
+	background-color: black;
+	font-family: 'Acme', sans-serif;
+	margin: 0;
+}
+
+.section {
+	padding: 10px;
+	position: relative;
+}
+
+.top {
+	min-height: 200px;
+	background-color: white;
+	color: black;
+}
+
+.tip-title {
+	letter-spacing: .02em;
+	position: absolute;
+	bottom: 5px;
+	left: 4%;
+	font-size: 36px;
+	transition: all 1s;
+}
+
+
+.content-box {
+	position: absolute;
+	top: 15px;
+	left: 4%;
+	width: 42%;
+	transition: all .8s;
+}
+
+.tip-content {
+	letter-spacing: .02em;
+	word-spacing: 2px;
+	font-size: 32px;
+	transition: all .8s;
+}
+
+.tip-content a {
+	color: white;
+}
+
+.tip-comment {
+	margin-top: 15px;
+	font-size: 20px;
+	font-style: italic;
+	color: #777;
+	transition: all .8s;
+}
+
+.bottom {
+	background-color: black;
+	color: white;
+}
+
+.logo {
+	float: right;
+	margin-right: 3%;
+	margin-top: 175px;
+}
+
+.next-tip-link {
+	cursor: pointer;
+	font-size: 24px;
+	text-align: right;
+	margin-right: 4%;
+	margin-top: 10px;
+}
+
+.btn {
+	/*transition: .8s all;*/
+	font-size: 90%;
+	color: black;
+	display: inline-block;
+	background-color: white;
+	padding: 0 8px 0 8px;
+	border-radius: 50%;
+}
+
+.footer {
+	position: absolute;
+	right: 4.5%;
+	top: 20px;
+	font-size: 14px;
+	color: #bbb;
+}
+
+.footer a {
+	color: #bbb;
+}
+
+.small {
+	font-size: 75%;
+}
+
+@media screen and (max-width: 1024px){
+	.top {
+		min-height: 150px;
+	}
+	.logo {
+		margin-top: 100px;
+		max-width: 250px;
+	}
+
+	.tip-content {
+		font-size: 24px;
+	}
+	.tip-title {
+		font-size: 28px;
+	}
+	.tip-comment {
+		font-size: 16px;
+	}
+	.content-box {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.top {
+		min-height: 125px;
+	}
+	.logo {
+		margin-top: 90px;
+		max-width: 215px;
+	}
+	.content-box {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.top {
+		min-height: 100px;
+	}
+	.tip-content {
+		font-size: 18px;
+	}
+	.tip-title {
+		font-size: 24px;
+	}
+	.tip-comment {
+		font-size: 12px;
+	}
+	.next-tip-link {
+		font-size: 18px;
+	}
+	.btn {
+		padding: 0 6px 0 6px;
+	}
+	.logo {
+		margin-top: 90px;
+		max-width: 140px;
+	}
+}
