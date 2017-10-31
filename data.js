@@ -4,6 +4,7 @@
 // 6.  Footer - copyright + Logo.
 // 7.  Contribute page somewhere.
 // 8.  Options somewhere (like filters).  Singly glyphicon? - ico moon?
+// 9.  Need beginner/intermediate/master level tips.
 
 //  ZeldaSecrets, botwTips, WildZeldaTips, ZeldaInfo, 
 
@@ -76,6 +77,15 @@ var TIPS = [
 		title : "Orange Pinwheels",
 		content : "A small orange pinwheel sticking out of the ground is probably a Korok Seed.  Stand at the pinwheel and look in the sky.  Shoot down any flying objects you see to claim your prize.",
 		comment : "Sometimes this can be very hard.  Try using stasis, or bombs."
+	},
+	{
+		title : "Upgrading Inventory",
+		content : "To get more inventory spaces you need to collect Korok Seeds then find Hestu.  You can find him just outside of Kariko Village.",
+		comment : "The cost to upgrade goes up each time."
+	},
+	{
+		title : "Extra Hearts",
+		content : "Some meals will give you bonus (yellow) hearts.  These can be made by cooking with \"Hearty\" food items.",
 	},
 ]
 	
