@@ -6,5 +6,5 @@ Tips and advice from Zelda Breath of the Wild - using the Zelda loading screen U
 
 ## How to Submit a Tip
 
-[Fill out the submission form.](https://goo.gl/forms/cg0BhE9XxfVgIzOh2).
+[Fill out the submission form.](https://goo.gl/forms/cg0BhE9XxfVgIzOh2)
 
